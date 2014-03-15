@@ -1,9 +1,11 @@
-# LAMP Stacks Made Easy with Vagrant & Puppet
+# LAMP Stacks ready for Omeka with Vagrant & Puppet
 
-Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the worlds next great application should be easy. Use this all inclusive code to quickly kickstart your next application environement.
+Allows those with an interest in Omeka an easy way to create a virtual development environment. No need waiting.
 
-## Shout outs!
-Credit must be given where credit is due. Most of this work was made possible by:
+## This would not exist without the following repositories as it merely adds packages to existing modules:
+Forked from:
+* [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
+Which was based on:
 * [PerishableDave/puppet-lamp-stack](https://github.com/PerishableDave/puppet-lamp-stack).
 * [jas0nkim/my-vagrant-puppet-lamp](https://github.com/jas0nkim/my-vagrant-puppet-lamp).
 
