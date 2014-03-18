@@ -1,8 +1,8 @@
 # LAMP Stacks ready for Omeka with Vagrant & Puppet
 
-Allows those with an interest in Omeka an easy way to create a virtual development environment.
+Allows those with an interest in exploring Omeka an easy way to create a virtual development environment.
 
-## This would not exist without the following repositories as it merely adds packages to existing modules:
+## This would not exist without the following repositories:
 Forked from:
 * [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
 Which was based on:
