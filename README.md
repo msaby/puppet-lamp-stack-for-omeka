@@ -1,6 +1,6 @@
 # LAMP Stacks ready for Omeka with Vagrant & Puppet
 
-Allows those with an interest in Omeka an easy way to create a virtual development environment. No waiting.
+Allows those with an interest in Omeka an easy way to create a virtual development environment.
 
 ## This would not exist without the following repositories as it merely adds packages to existing modules:
 Forked from:
@@ -21,7 +21,7 @@ Which was based on:
 
 2. Clone this repository.
 3. Create directory (new folder) "webroot" in the root directory of the clone. This will act as your root web folder.
-4. In terminal, change directory to the git repo root, and start the vagrant box with the following command:
+4. In terminal, change directory to the git repo root, and start the vagrant box with the following command (may take 1-2 minutes):
 
         $ vagrant up
 
