@@ -18,7 +18,7 @@ read dbpw
 
 #From Omeka Docs 
 sudo groupadd webdev
-sudo usermod -a -G webdev mktest
+sudo usermod -a -G webdev vagrant
 cd /var
 sudo chown -R root.webdev www
 
