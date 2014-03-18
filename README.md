@@ -27,6 +27,8 @@ Which was based on:
 
 You're virtual server has been created and you're now halfway to your new Omeka development environment!
 
+## Installing Omeka
+
 5. In terminal, issue the following command to connect to your new virtual server:
 
         $ vagrant ssh
