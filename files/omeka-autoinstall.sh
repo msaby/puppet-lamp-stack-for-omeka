@@ -8,6 +8,8 @@ unzip omeka-2.0.zip
 
 sudo mv omeka-2.0/* /vagrant/webroot/
 sudo mv omeka-2.0/.htaccess /vagrant/webroot/
+sudo rm -R omeka-2.0/
+
 #End Omeka Docs Snippet
 rootpw=d3v0p5
 
@@ -19,11 +21,11 @@ read dbpw
 #From Omeka Docs 
 sudo groupadd webdev
 sudo usermod -a -G webdev vagrant
-cd /var
-sudo chown -R root.webdev www
+cd /vagrant
+sudo chown -R root.webdev webroot
 
 sudo chmod 775 www
-cd /var/www 
+cd /vagrant/webroot
 sudo find . -type d | xargs sudo chmod 775
 sudo find . -type f | xargs sudo chmod 664
 sudo find files -type d | xargs sudo chmod 777
