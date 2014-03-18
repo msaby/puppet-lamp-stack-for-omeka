@@ -1,6 +1,6 @@
 # LAMP Stacks ready for Omeka with Vagrant & Puppet
 
-Allows those with an interest in Omeka an easy way to create a virtual development environment. No need to wait.
+Allows those with an interest in Omeka an easy way to create a virtual development environment. No waiting.
 
 ## This would not exist without the following repositories as it merely adds packages to existing modules:
 Forked from:
@@ -14,18 +14,30 @@ Which was based on:
 * [Virtual Box](https://www.virtualbox.org/)
 
 ## Instructions
-0. Insure Vagrant and Virutal Box are installed.
-1. Install precise32 Vagrant box. (If not installed already)
+0. Ensure Vagrant (http://www.vagrantup.com/) and Virutal Box (https://www.virtualbox.org/) are installed.
+1. Open Terminal and install precise32 Vagrant box with the following command (if not installed already):
 
         $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
 2. Clone this repository.
-3. Create directory "webroot" in the root directory of the clone. This will act as your root web folder.
-4. Open up terminal, change directory to the git repo root, and start the vagrant box.
+3. Create directory (new folder) "webroot" in the root directory of the clone. This will act as your root web folder.
+4. In terminal, change directory to the git repo root, and start the vagrant box with the following command:
 
         $ vagrant up
 
-You're all set up. The webserver will now be accessible from http://localhost:8888
+You're virtual server has been created and you're now halfway to your new Omeka development environment!
+
+5. In terminal, issue the following command to connect to your new virtual server:
+
+        $ vagrant ssh
+        
+6. Issue the following command to run the Omeka installation script:
+
+        $ sudo /opt/omeka-autoinstall.sh
+
+7. The script will take a few moments as it downloads Omeka, unzips it and places it in the webroot directory.
+8. You will be promptated to create a mysql username(6 character max.) and password.
+9. Open a browser and visit http://localhost:8888 to finish the Omeka installation.
 
 ## System Package include
 
@@ -42,3 +54,5 @@ You're all set up. The webserver will now be accessible from http://localhost:88
 * curl
 * vim
 * htop
+* unzip
+* imagemagick
