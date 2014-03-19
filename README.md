@@ -5,7 +5,7 @@ Allows those with an interest in exploring Omeka an easy way to create a virtual
 ## This would not exist without the following repositories:
 Forked from:
 * [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
-Which was based on:
+* Which was based on:
 * [PerishableDave/puppet-lamp-stack](https://github.com/PerishableDave/puppet-lamp-stack).
 * [jas0nkim/my-vagrant-puppet-lamp](https://github.com/jas0nkim/my-vagrant-puppet-lamp).
 
