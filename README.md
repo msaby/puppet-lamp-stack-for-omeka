@@ -25,21 +25,14 @@ Which was based on:
 
         $ vagrant up
 
-You're virtual server has been created and you're now halfway to your new Omeka development environment!
+5. You're virtual server has been created! Open a browser and visit http://localhost:8888 to finish the Omeka installation.
 
-## Installing Omeka
 
-5. In terminal, issue the following command to connect to your new virtual server:
+Optional: If you'd like to access your new Omeka install via the terminal issue the following command:
 
         $ vagrant ssh
         
-6. Issue the following command to run the Omeka installation script:
 
-        $ sudo /opt/omeka-autoinstall.sh
-
-7. The script will take a few moments as it downloads Omeka, unzips it and places it in the webroot directory.
-8. You will be promptated to create a mysql username(6 character max.) and password.
-9. Open a browser and visit http://localhost:8888 to finish the Omeka installation.
 
 ## System Package include
 
@@ -58,3 +51,4 @@ You're virtual server has been created and you're now halfway to your new Omeka 
 * htop
 * unzip
 * imagemagick
+* omeka

@@ -21,4 +21,11 @@ class mysql {
     command => "mysqladmin -uroot password $mysqlpw",
     require => Service["mysql"],
   }
+
+  mysql::db { 'omeka':
+      user     => 'omeka',
+      password => 'omeka',
+      host     => 'localhost',
+      grant    => ['ALL'],
+    }
 }
