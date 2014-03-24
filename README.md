@@ -21,14 +21,14 @@ Forked from:
 
 2. Clone this repository.
 3. Create directory (new folder) "webroot" in the root directory of the clone. This will act as your root web folder.
-4. In terminal, change directory to the git repo root, and start the vagrant box with the following command (may take 1-2 minutes):
+4. In terminal, change directory to the Git repo root, and start the vagrant box with the following command (may take 1-2 minutes):
 
         $ vagrant up
 
 5. You're virtual server has been created! Open a browser and visit http://localhost:8888 to finish the Omeka installation.
 
 
-Optional: If you'd like to access your new Omeka install via the terminal issue the following command:
+Optional: If you'd like to access your new Omeka install via the terminal, issue the following command while in the Git repo root:
 
         $ vagrant ssh
         
