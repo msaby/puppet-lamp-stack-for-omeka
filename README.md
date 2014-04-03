@@ -50,5 +50,6 @@ Optional: If you'd like to access your new Omeka install via the terminal, issue
 * vim
 * htop
 * unzip
+* git
 * imagemagick
 * omeka
