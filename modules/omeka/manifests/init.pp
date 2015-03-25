@@ -27,12 +27,12 @@ class omeka {
     cwd     => '/vagrant/',
     command => 'unzip omeka-2.3.zip',
     require => Exec['download-omeka'],
-    creates => '/vagrant/omeka-2.3.zip',
+    creates => '/vagrant/omeka-2.3',
   }
 
   exec { 'move-omeka':
     require => Exec['unzip-omeka'],
-    command => 'sudo mv /vagrant/omeka-2.3/* /vagrant/webroot/ | sudo mv /vagrant/omeka-2.2.2/.htaccess /vagrant/webroot/',
+    command => 'sudo mv /vagrant/omeka-2.3/* /vagrant/webroot/ | sudo mv /vagrant/omeka-2.3/.htaccess /vagrant/webroot/',
     }
   exec {'cleanup-omeka':
     require => Exec['move-omeka'],
