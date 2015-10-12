@@ -40,7 +40,6 @@ Optional: If you'd like to access your new Omeka install via the terminal, issue
 * php5
 * php5-cli
 * php5-mysql
-* php-pear - installed packages: phpunit and its dependencies
 * php5-dev
 * php5-gd
 * php5-mcrypt
@@ -53,3 +52,6 @@ Optional: If you'd like to access your new Omeka install via the terminal, issue
 * git
 * imagemagick
 * omeka
+
+## Updates
+10/12/2015 - Updates Omeka to v2.3.1. Updates PHPUnit installation method.
