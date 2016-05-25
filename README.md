@@ -54,4 +54,5 @@ Optional: If you'd like to access your new Omeka install via the terminal, issue
 * omeka
 
 ## Updates
+25/05/2016 - Updates Omeka to v2.4
 10/12/2015 - Updates Omeka to v2.3.1. Updates PHPUnit installation method.
